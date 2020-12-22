@@ -1,9 +1,0 @@
-先启动floodlight控制器
-
-运行mininet网络：
-将multipathtopo.py中的控制器地址改为实际的控制器地址，
-然后在mininet虚拟机中运行 sudo python multipathtopo.py (此处为python2)
-
-运行loadbalancer.py：
-将其中的控制器地址改为实际的控制器地址，
-然后运行python loadbalancer.py (此处为python3)
